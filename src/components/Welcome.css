@@ -1,0 +1,19 @@
+.nothing-todo{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xx-large;
+    animation-name: divyansh_anim;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes divyansh_anim  {
+    0%{
+        color: black;
+    }
+    50%{
+        color: red;
+    }
+    100%{
+        color: black;
+    }
+}

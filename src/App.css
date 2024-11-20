@@ -1,0 +1,32 @@
+h1{
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+
+input{
+  width: 100%;
+  text-align: center;
+}
+
+.main-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  width: 50%;
+  min-height: 50vh;
+  background-color: aqua;
+  border: 5px solid rgb(35, 35, 35);
+  border-radius: 5px;
+}
+.inner-container{
+  background-color: blue;
+}
+
+.Outer-container{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
